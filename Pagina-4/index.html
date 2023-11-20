@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/img/icono.png">
+</head>
+
+<body>
+    <section>
+        <h1>Calculadora</h1>
+        <div class="linea"></div>
+        <div class="numeros">
+            <input type="number" name="n1" id="n1" placeholder="Número 1">
+            <span id="alertaN1"></span>
+            <input type="number" name="n2" id="n2" placeholder="Número 2">
+        </div>
+        <div class="boton">
+            <button onclick="operacion('suma')">+</button>
+            <button onclick="operacion('resta')">-</button>
+            <button onclick="operacion('multi')">x</button>
+            <button onclick="operacion('divi')">÷</button>
+        </div>    
+        <div>
+            <h2 id="resul">Resultado</h2>
+        </div>  
+    </section>
+    <div class="wave">
+
+    </div>
+    
+    <script src="assets/scripts/scrip.js"></script>
+</body>
+
+</html>

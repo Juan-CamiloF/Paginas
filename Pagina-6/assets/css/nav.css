@@ -1,0 +1,47 @@
+:root{
+    --color: #2d6ca7da;
+}
+.fa-bahai {
+    font-size: 50px;
+    color: var(--color);
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    box-shadow: 0 0 8px var(--color);
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.menu li > a {
+    padding: 0 20px;
+    border-right: 1px solid #333333;
+    text-decoration: none;
+    color: #333333;
+}
+.menu li > a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:457px){
+    header{
+        justify-content: center;
+        padding: 20px 25px;
+    }
+    nav{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:343px){
+    header{
+        padding: 20px 10px;
+    }
+    .menu li > a{
+        padding: 0 10px;
+    }
+}
